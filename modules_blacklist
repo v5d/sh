@@ -1,0 +1,33 @@
+/etc/modules-load.d/blacklist.conf
+
+blacklist  btusb
+blacklist  btintel
+blacklist  btbcm
+blacklist  btrtl
+blacklist  bnep
+blacklist  rfcomm
+blacklist  ecdh_generic
+blacklist  bluetooth
+blacklist  algif_skcipher
+blacklist  af_alg
+blacklist  nls_iso8859_1
+blacklist  kvm
+blacklist  kvm_intel
+blacklist  irqbypass
+blacklist  snd_seq_midi
+blacklist  snd_seq_midi_event
+blacklist  snd_seq
+blacklist  snd_rawmidi
+blacklist  snd_seq_device
+blacklist  rtsx_usb_sdmmc
+blacklist  rtsx_usb_ms
+blacklist  rtsx_usb
+blacklist  memstick
+blacklist  rtsx_usb_ms
+blacklist  rtsx_usb_ms
+blacklist  nf_conntrack_netbios_ns
+blacklist  nf_conntrack_broadcast
+blacklist  nf_nat_ftp
+blacklist  nf_conntrack_ftp
+blacklist  nf_nat
+blacklist  joydev

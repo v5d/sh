@@ -65,6 +65,10 @@ sudo apt-get install firefox firefox-locale-zh-hans xournal mypaint bleachbit fc
 - a=`expr $a + 10`
 - echo $a > /sys/class/backlight/intel_backlight/brightness
 
-### 禁止更改桌面
+### xfce4
 - ~/.comfig/xfce4 只读，禁止修改写入
+- 竖面板orage时钟
+- 快捷键设置
+
+## 写硬盘检测
 

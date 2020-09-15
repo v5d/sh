@@ -14,8 +14,7 @@ sudo systemctl disable kerneloops.service rsyslog.service
 - logrotate journal设置
 
 
-ln -sf /dev/null ~/.xsession-errors
-
+> ln -sf /dev/null ~/.xsession-errors
 ln -sf /dev/null ~/.xsession-errors.old
 
 

@@ -46,7 +46,7 @@ sudo systemctl disable kerneloops.service rsyslog.service
 ---
 
 # 安装软件
-sudo apt-get install firefox firefox-locale-zh-hans xournal mypaint bleachbit fcitx fcitx-googlepinyin fcitx-ui-classic fcitx-frontend-all fcitx-frontend-qt4
+sudo apt-get install firefox firefox-locale-zh-hans xournal mypaint bleachbit fcitx fcitx-googlepinyin fcitx-ui-classic fcitx-frontend-all fcitx-frontend-qt4 xclip qrencode gnome-system-monitor gnome-screenshot 
 
 ### bleachbit清理垃圾
 

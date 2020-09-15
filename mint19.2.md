@@ -19,32 +19,29 @@ sudo systemctl disable kerneloops.service rsyslog.service
 - logrotate journal设置
 
 
-ln -sf /dev/null ~/.xsession-errors
-
-ln -sf /dev/null ~/.xsession-errors.old
+- ln -sf /dev/null ~/.xsession-errors
+- ln -sf /dev/null ~/.xsession-errors.old
 
 
 
 ---
-cd /var/log
-
-sudo ln -sf /dev/null kern.log
-sudo ln -sf /dev/null lastlog
-sudo ln -sf /dev/null ufw.log
-sudo ln -sf /dev/null wtmp
-sudo ln -sf /dev/null Xorg.0.log
-sudo ln -sf /dev/null auth.log
-sudo ln -sf /dev/null boot.log
-sudo ln -sf /dev/null alternatives.log
-sudo rm -rf speech-dispatcher samba openvpn ntpstats
-sudo ln -sf /dev/null dpkg.log
-sudo ln -sf /dev/null faillog
-sudo ln -sf /dev/null gpu-manager.log
-sudo ln -sf /dev/null fontconfig.log
-sudo rm rf- gufw.log
-sudo ln -sf /dev/null bootstrap.log
-
-cd ~
+- cd /var/log
+- sudo ln -sf /dev/null kern.log
+- sudo ln -sf /dev/null lastlog
+- sudo ln -sf /dev/null ufw.log
+- sudo ln -sf /dev/null wtmp
+- sudo ln -sf /dev/null Xorg.0.log
+- sudo ln -sf /dev/null auth.log
+- sudo ln -sf /dev/null boot.log
+- sudo ln -sf /dev/null alternatives.log
+- sudo rm -rf speech-dispatcher samba openvpn ntpstats
+- sudo ln -sf /dev/null dpkg.log
+- sudo ln -sf /dev/null faillog
+- sudo ln -sf /dev/null gpu-manager.log
+- sudo ln -sf /dev/null fontconfig.log
+- sudo rm rf- gufw.log
+- sudo ln -sf /dev/null bootstrap.log
+- cd ~
 
 ---
 
@@ -57,6 +54,6 @@ sudo apt-get install firefox firefox-locale-zh-hans xournal mypaint bleachbit fc
 - https://www.mozilla.org/zh-CN/firefox/all/#product-desktop-release
 - about:config,   browser.cache.disk.parent_directory,   /dev/shm/firefox
 - sudo ufw default deny incoming
-  sudo ufw default allow outgoing
-  sudo ufw enable
+- sudo ufw default allow outgoing
+- sudo ufw enable
 

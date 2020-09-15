@@ -15,6 +15,7 @@ sudo systemctl disable kerneloops.service rsyslog.service
 
 
 ln -sf /dev/null ~/.xsession-errors
+
 ln -sf /dev/null ~/.xsession-errors.old
 
 

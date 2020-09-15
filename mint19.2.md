@@ -53,6 +53,8 @@ sudo apt-get install firefox firefox-locale-zh-hans xournal mypaint bleachbit fc
 ### firefox 
 - https://www.mozilla.org/zh-CN/firefox/all/#product-desktop-release
 - about:config,   browser.cache.disk.parent_directory,   /dev/shm/firefox
+
+### ufw
 - sudo ufw default deny incoming
 - sudo ufw default allow outgoing
 - sudo ufw enable

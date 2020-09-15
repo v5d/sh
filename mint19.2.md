@@ -16,7 +16,9 @@ sudo systemctl disable kerneloops.service rsyslog.service
 ln -sf /dev/null ~/.xsession-errors
 ln -sf /dev/null ~/.xsession-errors.old
 
+---
 cd /var/log
+
 sudo ln -sf /dev/null kern.log
 sudo ln -sf /dev/null lastlog
 sudo ln -sf /dev/null ufw.log
@@ -32,7 +34,10 @@ sudo ln -sf /dev/null gpu-manager.log
 sudo ln -sf /dev/null fontconfig.log
 sudo rm rf- gufw.log
 sudo ln -sf /dev/null bootstrap.log
+
 cd ~
+
+---
 
 # 安装软件
 sudo apt-get install firefox firefox-locale-zh-hans xournal mypaint bleachbit fcitx fcitx-googlepinyin fcitx-ui-classic fcitx-frontend-all fcitx-frontend-qt4

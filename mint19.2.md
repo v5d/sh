@@ -59,3 +59,8 @@ sudo apt-get install firefox firefox-locale-zh-hans xournal mypaint bleachbit fc
 - sudo ufw default allow outgoing
 - sudo ufw enable
 
+### 亮度
+- a=$(cat /sys/class/backlight/intel_backlight/brightness)
+- a=`expr $a + 10`
+- echo $a > /sys/class/backlight/intel_backlight/brightness
+- # chmod 777 /sys/class/backlight/intel_backlight/brightness

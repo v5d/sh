@@ -53,6 +53,7 @@ sudo apt-get install firefox firefox-locale-zh-hans xournal mypaint bleachbit fc
 ### firefox 
 - https://www.mozilla.org/zh-CN/firefox/all/#product-desktop-release
 - about:config, 里面字符串 browser.cache.disk.parent_directory, 值 /dev/shm/firefox
+- adblock, zoom level, gesture
 
 ### ufw
 - sudo ufw default deny incoming
@@ -70,5 +71,5 @@ sudo apt-get install firefox firefox-locale-zh-hans xournal mypaint bleachbit fc
 - 竖面板orage时钟
 - 快捷键设置
 
-## 写硬盘检测
+### 写硬盘检测 
 

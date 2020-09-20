@@ -72,6 +72,6 @@ sudo apt-get install firefox firefox-locale-zh-hans xournal mypaint bleachbit fc
 - 快捷键设置
 
 ### 写硬盘检测 
-- fatrace
+- fatrace,   sudo fatrace  |grep " W "
 
 

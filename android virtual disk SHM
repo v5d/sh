@@ -1,0 +1,22 @@
+#!/system/bin/sh
+mount -t tmpfs -o size=200M,nr_inodes=42k,mode=0777 tmpfs /data/data/com.android.chrome/cache
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs /data/data/com.android.chrome/code_cache
+
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs  /data/data/org.telegram.messenger/cache
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs  /data/data/org.telegram.messenger/code_cache
+
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs /data/data/com.twitter.android/cache
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs /data/data/com.twitter.android/code_cache﻿
+
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs /data/data/org.mozilla.firefox_beta/cache
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs /data/data/org.mozilla.firefox_beta/code_cache
+
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs /data/data/com.kapp.youtube.final/cache
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs /data/data/com.kapp.youtube.final/code_cache
+
+#!/system/bin/sh
+/etc/init.d/mycache.sh
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs /data/data/com.kapp.youtube.final/cache
+mount -t tmpfs -o size=100M,nr_inodes=42k,mode=0777 tmpfs /data/data/com.kapp.youtube.final/code_cache
+com.kapp.youtube.final
+com.kapp.youtube.final

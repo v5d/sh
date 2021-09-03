@@ -1,8 +1,9 @@
 mint_xfce4_19.2安装设置
 
 - 默认安装时候选自动登录，不能加密家目录。
-- 启动分区别写到硬盘，和win冲突。
+- 启动分区,写到硬盘，则把win启动分区覆盖，由grub2启动双系统。否则需要win安装EasyBCD进行双启动。
 - home, root, boot, swap分区
+- 加密home，或者LUKS挂载成home.
 
 
 ### 卸载

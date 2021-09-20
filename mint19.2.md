@@ -8,11 +8,11 @@ mint_xfce4_19.2安装设置
 
 ### 卸载
 sudo apt-get remove --purge hexchat thunderbird tomboy compiz* printer-driver-* simple-scan timeshift transmission-* xfce4-taskmanager xserver-xorg-video-fbdev xserver-xorg-video-amdgpu xserver-xorg-video-ati xserver-xorg-video-nouveau xserver-xorg-video-qxl xserver-xorg-video-radeon xserver-xorg-video-vesa xserver-xorg-video-vmware gnome-logs mint-backgrounds-tessa mint-backgrounds-tara mintreport hplip-data* modemmanager cups*
-dpkg -l进去看不用的软件
-libreoffice-l10n*, 中文除外
-libreoffice-help*， 中文除外
-printer-driver-*
-xserver-xorg-video-*, 自己CPU，比如intel除外
+- dpkg -l进去看不用的软件
+- libreoffice-l10n*, 中文除外
+- libreoffice-help*， 中文除外
+- printer-driver-*
+- xserver-xorg-video-*, 自己CPU，比如intel除外
 
 
 ## 日志
